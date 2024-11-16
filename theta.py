@@ -1,6 +1,6 @@
 import openai
 from telegram import Update
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+from telegram.ext import Updater, CommandHandler, MessageHandler, filters, CallbackContext
 
 # Set up OpenAI API key (get your API key from OpenAI's website)
 openai.api_key = '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'
