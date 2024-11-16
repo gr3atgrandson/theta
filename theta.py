@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
 # Set up OpenAI API key (get your API key from OpenAI's website)
-openai.api_key = 'your_openai_api_key'
+openai.api_key = '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'
 
 # Function to handle the '/start' command
 def start(update: Update, context: CallbackContext):
@@ -34,7 +34,7 @@ def unknown(update: Update, context: CallbackContext):
 # Main function to set up the bot
 def main():
     # Your Telegram Bot token
-    bot_token = 'your_telegram_bot_token'
+    bot_token = '7624661998:AAGoC_dt767yi3rIGB9IDkmnWIyfFb0R95U'
 
     # Set up the Updater and Dispatcher
     updater = Updater(bot_token, use_context=True)
